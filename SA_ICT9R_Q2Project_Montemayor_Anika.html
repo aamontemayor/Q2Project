@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+
+	<title>Q2 Project</title>
+	<style>
+	.topnav {
+  		background-color: #F0F3F4 ;
+  		overflow: hidden;
+	}
+	.topnav a {
+ 		float: left;
+  		color: #333;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-family: 'Alegreya Sans SC', sans-serif;
+  		font-size: 17px;
+	}
+	.topnav a:hover {
+  		background-color: #232323;
+  		color: white;
+	}
+	.topnav a.active {
+ 		background-color: #C0392B;
+  		color: white;
+  	}
+  	#meals{
+  		font-size: 25px;
+  	}
+  	#button{
+		border: none;
+		border-radius: 4px;
+		outline: 0;
+		display: inline-black;
+		margin: 24px;
+		padding: 12px;
+		color: white;
+		background-color: #232323;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		font-family: 'Alegreya Sans SC', sans-serif;
+		font-size: 17px;
+	}
+  	#button1{
+		border: none;
+		border-radius: 6px;
+		outline: 0;
+		display: inline-black;
+		padding: 8px;
+		color: white;
+		background-color: #B03A2E;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		font-family: 'Alegreya Sans SC', sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	table, tr, th, td{
+		border-width: 3px;
+		border-color: #6F6F6F;
+		border-style: solid;
+		padding: 3px;
+		text-align: center;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+	#parent{ 
+		white-space: nowrap;
+		overflow-wrap: auto;
+	}
+	.child{ 
+		display: inline-block;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<img src="https://www.tokyotokyodelivery.ph/_nuxt/img/line-top.c604bcf.png" width="1500">
+	</div>
+	<div id="parent">
+		<div class="child">
+			<img src="https://www.tokyotokyodelivery.ph/_nuxt/img/tokyologo.ba9338d.png" width="300" align="center">
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="child">
+			<button id="button"><b>Start Order</b></button>
+		</div>
+	</div>
+	<div class="topnav">
+  		<a href="#home">Home</a>
+  		<a class="active" href="#menu">Menu</a>
+  		<a href="#news">News</a>
+  		<a href="#contact">Contact</a>
+  		<a href="#about">About</a>
+	</div>
+	<br>
+	<br>
+	<table align="center" border="3" width="1500" cellpadding="5" cellspacing="5">
+		<tr style="text-shadow: 1px 1px 3px #F5B7B1;">
+			<th colspan="5" id="meals">Donburi</th>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src= https://www.tokyotokyodelivery.ph/productimg/DBR-CHESSYBEEF.png>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DBR-MENCKATSCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DBR-OYAKODONCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DBR-KATSUDONCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DBR-GYUDON.png">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>Cheesy Beef Donburi with Red Iced Tea</th>
+			<th>Menchi Katsudon with Red Iced Tea</th>
+			<th>Chicken Oyakodon with Red Iced Tea</th>
+			<th>Pork Katsudon with Red Iced Tea</th>
+			<th>Beef Gyudon with Red Iced Tea</th>
+		</tr>
+		<tr>
+			<td>₱210.00</td>
+			<td>₱210.00</td>
+			<td>₱170.00</td>
+			<td>₱170.00</td>
+			<td>₱210.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table align="center" border="3" width="1500" cellpadding="5" cellspacing="5">
+		<tr style="text-shadow: 1px 1px 3px #F5B7B1;">
+			<th colspan="5" id="meals">Bento Meals</th>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-WGYUCBES.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-BEEFMIS.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-YUZUWHLCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-CHIKTERI.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-HCT6PCCBO.png">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>Wagyu Cubes Classic Bento</th>
+			<th>Beef Misono Classic Bento</th>
+			<th>6pc Orange Yuzu Chicken Classic Bento</th>
+			<th>Best Chicken Teriyaki Classic Bento</th>
+			<th>6pc Honey Chicken Teriyaki Classic Bento</th>
+		</tr>
+		<tr>
+			<td>₱310.00</td>
+			<td>₱284.00</td>
+			<td>₱310.00</td>
+			<td>₱284.00</td>
+			<td>₱310.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-PORKTONK.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-CHIKMENCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-KARAAGEWHOLE.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-BEEFYAKI.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/BNT-HONCHIKTERI.png">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>Pork Tonkatsu Classic Bento</th>
+			<th>Chicken Menchi Katsu Classic Bento</th>
+			<th>6pc Chicken Karaage Classic Bento</th>
+			<th>Beef Yakiniku Classic Bento</th>
+			<th>3pc Honey Chicken Teriyaki Classic Bento</th>
+		</tr>
+		<tr>
+			<td>₱284.00</td>
+			<td>₱310.00</td>
+			<td>₱284.00</td>
+			<td>₱284.00</td>
+			<td>₱245.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table align="center" border="3" width="1500" cellpadding="5" cellspacing="5">
+		<tr style="text-shadow: 1px 1px 3px #F5B7B1;">
+			<th colspan="4" id="meals">Ramen</th>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/RAM-REG-PRE-CHSYBEEFCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/RAM-PR1CHXBBQCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/RAM-REG-PREMCHICKENCBO.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/RAM-REG-PREMSEAFOODCBO.png">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>Cheesy Beef Ramen</th>
+			<th>Chicken Teriyaki Ramen</th>
+			<th>Spicy Chicken Ramen</th>
+			<th>Seafood Ramen</th>
+		</tr>
+		<tr>
+			<td>₱230.00</td>
+			<td>₱230.00</td>
+			<td>₱230.00</td>
+			<td>₱230.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table align="center" border="3" width="1500" cellpadding="5" cellspacing="5">
+		<tr style="text-shadow: 1px 1px 3px #F5B7B1;">
+			<th colspan="5" id="meals">Burgers</th>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src= https://www.tokyotokyodelivery.ph/productimg/SNK-BEEFMUSH.png>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SNK-KATBURG.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SNK-KATCHZBUR.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SNK-WAGYU.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SNK-WAGYUBRG.png">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>Beef & Mushroom Burger</th>
+			<th>Katsu Burger</th>
+			<th>Katsu Cheeseburger</th>
+			<th>Wagyu Burger</th>
+			<th>Wagyu Double Cheeseburger</th>
+		</tr>
+		<tr>
+			<td>₱150.00</td>
+			<td>₱150.00</td>
+			<td>₱160.00</td>
+			<td>₱190.00</td>
+			<td>₱300.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table align="center" border="3" width="1500" cellpadding="5" cellspacing="5">
+		<tr style="text-shadow: 1px 1px 3px #F5B7B1;">
+			<th colspan="5" id="meals">Side Dishes</th>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src= https://www.tokyotokyodelivery.ph/productimg/ROLL-CALIMAKI8PC.png>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SSH-TEMPDRGN.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SNK-PBALBUCKTAC.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/SNK-FRIEDGYOZA.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/MISOSOUP.PNG">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>California Maki</th>
+			<th>Tempura Dragon Maki</th>
+			<th>Potato Ball Bucket</th>
+			<th>3pc Fried Gyoza</th>
+			<th>Miso Soup</th>
+		</tr>
+		<tr>
+			<td>₱139.00</td>
+			<td>₱159.00</td>
+			<td>₱230.00</td>
+			<td>₱70.00</td>
+			<td>₱45.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table align="center" border="3" width="1500" cellpadding="5" cellspacing="5">
+		<tr style="text-shadow: 1px 1px 3px #F5B7B1;">
+			<th colspan="5" id="meals">Drinks & Desserts</th>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src= https://www.tokyotokyodelivery.ph/productimg/DES-MANGOPCOTTA.png>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DES-COFFEEJELLY.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DES-REVELBAR.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DRK-REDICEDTEA-M.png">
+				</a>
+			</td>
+			<td>
+				<a href="https://www.tokyotokyodelivery.ph/common-menu">
+				<img src="https://www.tokyotokyodelivery.ph/productimg/DRK-COKEZERO-C.png">
+				</a>
+			</td>
+		</tr>
+		<tr style="text-decoration: underline;">
+			<th>Mango Pannacotta</th>
+			<th>Coffee Jelly</th>
+			<th>Revel Bar</th>
+			<th>Red Iced Tea</th>
+			<th>Coke Zero</th>
+		</tr>
+		<tr>
+			<td>₱45.00</td>
+			<td>₱45.00</td>
+			<td>₱45.00</td>
+			<td>₱65.00</td>
+			<td>₱65.00</td>
+		</tr>
+		<tr>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+			<td><button id="button1">Add to Order</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div>
+		<img src="https://www.tokyotokyodelivery.ph/_nuxt/img/line-top.c604bcf.png" width="1500">
+	</div>
+</body>
+</html>
